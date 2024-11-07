@@ -1,0 +1,127 @@
+.MidiaContainer{
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.midiaContent{
+    margin: 0 auto;
+    background-color: #201F21;
+    width: 1000px;
+    margin-top: 100px;
+    min-height: 500px;
+    position: relative;
+}
+
+.midiaContent h1{
+  font-size: 48px;
+  font-weight: 300;
+ padding-top: 20px;
+}
+
+.midiaContent img{
+    width: 200px;
+    float: left;
+    padding: 10px;
+    
+}
+
+.iconfav{
+    position: absolute;
+    right: 40px;
+    height: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+ }
+
+.midiaText1{
+    text-align: left;
+    padding: 10px;
+}
+.midiaText1 span{
+    color: #F00000;
+}
+
+.textContent{
+    width: 700px;
+    position: absolute;
+    right: 20px;
+ }
+
+.midiaComment{
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    gap: 20px; 
+    padding: 20px; 
+}
+
+.comment{
+    background-color: #FFFFFF;
+    color: #221F1F;
+    width: 500px;
+    border-radius: 4px;
+    position:relative;
+}
+
+.comment img{
+ width: 100px;
+ border-radius: 100px;
+ padding: 5px;
+ 
+}
+
+.comment h1{
+    font-weight: 400;
+}
+.comment h2{
+    font-weight: 400;
+    
+}
+
+.deleteIcon{
+    position: absolute;
+    right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.comentContent{
+    margin: 0 auto;
+margin-top: 30px;
+background-color:#221F1F;
+padding: 20px;
+width: 500px;
+border-radius: 10px;
+font-weight: 100;
+}
+
+.comentContent textarea{
+    max-width: 300px;
+    max-height: 120px;
+    min-width: 300px;
+    min-height: 120px;
+    background-color: #221F1F;
+    border: 1px solid #F00000;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.comentContent select{
+    padding: 9px;
+    border-radius: 4px;
+}
+
+.comentContent button{
+    padding: 10px;
+    background-color: #221F1F;
+    color: white;
+    border: 1px solid white ;
+    border-radius: 4px;
+    cursor: pointer;
+}

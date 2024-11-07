@@ -1,0 +1,184 @@
+.TopMovies{
+    left: 20px;
+    position: absolute;
+    margin-left: 20px;
+    background-color: #201F21;
+    padding: 20px;
+    border-radius: 4px;
+    color: #F00000;
+    width: 120px;
+
+}
+
+.TopMovies img{
+    width: 100px;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.TopAnimaçoes{
+    right: 20px;
+    position: absolute;
+    margin-right: 20px;
+    background-color: #201F21;
+    padding: 20px;
+    border-radius: 4px;
+    color: #F7BB0E;
+    width: 120px;
+}
+
+.TopAnimaçoes img{
+    width: 100px;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.movies{
+    margin: 0 auto;
+    max-width: 1000px;
+    justify-content: center;
+
+}
+
+.MoviesImages {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    padding: 20px; 
+}
+
+.MoviesImages img{
+    width: 200px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.button1 {
+    --color1: #F00000;
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color1);
+    z-index: 1;
+    margin-right: 20px;
+   }
+   
+   .button1::before, .button1::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color1);
+    transition: 1s ease;
+   }
+   
+   .button1::before {
+    top: -1em;
+    left: -1em;
+   }
+   
+   .button1::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+   }
+   
+   .button1:hover::before, .button1:hover::after {
+    height: 410px;
+    width: 410px;
+   }
+   
+   .button1:hover {
+    color: black;
+   }
+   
+   .button1:active {
+    filter: brightness(.8);
+   }
+
+
+   .button2 {
+    --color2: #F7BB0E;
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color2);
+    z-index: 1;
+   }
+   
+   .button2::before, .button1::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color2);
+    transition: 1s ease;
+   }
+   
+   .button2::before {
+    top: -1em;
+    left: -1em;
+   }
+   
+   .button2::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+   }
+   
+   .button2:hover::before, .button1:hover::after {
+    height: 410px;
+    width: 410px;
+   }
+   
+   .button2:hover {
+    color: black;
+   }
+   
+   .button2:active {
+    filter: brightness(.8);
+   }
+
+
+   .inputSearch{
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 10px;
+   }
+   .inputSearch:focus{
+    background: none;
+    border: none;
+   }

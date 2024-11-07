@@ -1,0 +1,37 @@
+.Modal{
+    background-color:#201F21;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;  
+    height: 350px;
+    text-align: center;
+}
+
+.Modal h1{
+    color: #F7BB0E;
+    font-weight: 300;
+}
+
+.Modal h2{
+    color: #F7BB0E;
+    font-weight: 300;
+}
+
+.Modal input{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #201F21;
+    border: none;
+    color: white;
+    border: 1px solid #F7BB0E;
+    border-radius: 4px;
+}
+
+.Modal button{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}

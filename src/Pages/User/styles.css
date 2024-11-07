@@ -1,0 +1,91 @@
+.userContainer{
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.User{
+
+    margin: 0 auto;
+    background-color: #201F21;
+    margin-top: 20px;
+    width: 350px;
+    height: 170px;
+    padding: 20px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border-radius: 4px;
+   
+}
+
+.User img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    float: left;
+    padding: 10px;
+}
+
+.favoritos{
+    width: 100%;
+    background-color: #201F21;
+    padding: 10px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+
+}
+
+.favImg{
+    width: 100px;
+    border-radius: 4px;
+}
+
+
+.favIcon{
+    width: 30px;
+    position: absolute;
+    float: right;
+}
+
+
+
+.UserComment{
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    gap: 20px; 
+    padding: 20px; 
+}
+
+.comment{
+    background-color: #FFFFFF;
+    color: #221F1F;
+    width: 500px;
+    border-radius: 4px;
+}
+
+.comment img{
+ width: 100px;
+ border-radius: 100px;
+ padding: 5px;
+ 
+}
+
+.comment h1{
+    font-weight: 400;
+}
+.comment h2{
+    font-weight: 400;
+    
+}
+
+.editIconUser{
+   margin-right: 20px;
+   cursor: pointer;
+}
